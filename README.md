@@ -1,7 +1,10 @@
 # Marketing-Analysis--SQL-POWER-BI
 Project Overview:
 
-This repository contains the code and documentation for a Marketing analysis project. The analysis aimed to upgrade report from static reports to Visual dashboards and improved Sales reporting. The project involved data collection, processing, and visualization to derive actionable insights for decision-making.
+This repository contains the code and documentation for a Marketing analysis project. 
+---Objective. 
+
+The project involved data collection, processing, and visualization to derive actionable insights for decision-making.
 
 Tools Used:
 
@@ -85,7 +88,14 @@ Displays engagement metrics like clicks, likes, and views across different marke
 
 Shows average customer ratings over time, with breakdowns by product category.
 
- 
+
+
+ ![Power BI Graph](assets/graph likes.PNG)
+git add README.md
+git commit -m "Add image to README"
+git push
+
+
 
  Key Insights:
 
