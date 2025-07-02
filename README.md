@@ -105,13 +105,15 @@ Shows average customer ratings over time, with breakdowns by product category.
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow?logo=powerbi)
 ![Status](https://img.shields.io/badge/status-Completed-brightgreen)
 
+---
 
 >**Marketing Analytics Project for Customer Behavior Insights and Strategic Decision-Making**
+---
 
 ## 📊 Project Overview
 
-The Marketing Analysis project leverages SQL Server for data processing and Power BI for building an interactive dashboard to provide actionable insights into customer engagement, conversion rates, and feedback performance.
-
+- The Marketing Analysis project leverages SQL Server for data processing and Power BI for building an interactive dashboard to provide actionable insights into customer engagement, conversion rates, and feedback performance.
+---
 ## 🛠️ Tools & Technologies
 
 - 🛢️ SQL Server – Data querying, transformation, and cleaning
@@ -122,7 +124,7 @@ The Marketing Analysis project leverages SQL Server for data processing and Powe
 
 - 🧬 GitHub – Version control and project portfolio
 
-
+---
 ## 🗂️ Source Data
 - **Data Source**: Marketing-Analysis--SQL-POWER-BI (SQL Server Database)
   
@@ -153,11 +155,12 @@ The Marketing Analysis project leverages SQL Server for data processing and Powe
 
 
 
-
+---
 ## 🧾Business Problems
 
 
 The dashboard was developed to meet the following needs:
+
 - 🔻  Reduced Customer Engagement
 
 
@@ -167,7 +170,7 @@ The dashboard was developed to meet the following needs:
 
 
 
-
+---
  
 ##  🛠️ Data Preparation with SQL
 
@@ -177,7 +180,38 @@ Raw data was cleaned and transformed in SQL Server with the following steps:
 
 - 🔗 Joined multiple tables for a consolidated data model
 
+  ---
 
+
+## 🔑 KPI Metrics
+
+
+
+| KPI                                  | Description                                   |
+|------------------|-----------------------------------------------|
+| 🔁 Conversion Rat    | % of website visitors who completed a purchase|
+| 🎯  Engagement Rate  | Frequency of clicks, likes, views across marketing channels                             |
+| 🌟 Customer Feedback Score | Average rating from customer reviews              |
+
+
+---
+
+## 🧾Sample sql snippets:
+
+
+<pre> ``` SELECT   A.VisitDate,(B.PurchasedCustomers) AS 'PurchasedCustomers' ,COUNT(CustomerID) AS 'TotalCustomers',round(cast(100*PurchasedCustomers as float)/cast(COUNT(CustomerID) AS float),2) as factor
+  FROM [PortfolioProject_MarketingAnalytics].[dbo].[customer_journey] A
+  Join
+  
+  (SELECT   VisitDate,COUNT(CustomerID) AS 'PurchasedCustomers'
+  FROM [PortfolioProject_MarketingAnalytics].[dbo].[customer_journey]
+ WHERE Action='Purchase'
+ GROUP BY VisitDate) B 
+ 
+ 
+ ON A.VisitDate = B.VisitDate
+ GROUP BY A.VisitDate,B.PurchasedCustomers
+ ORDER BY A.VisitDate;```</pre> 
 
 
   
