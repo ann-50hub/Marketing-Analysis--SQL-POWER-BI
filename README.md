@@ -50,6 +50,7 @@ The raw marketing data was cleaned and transformed using SQL with the following 
 * Joined multiple tables for unified reporting
 
 Created KPIs:
+
 * Conversion Rate: Percentage of website visitors who makes a purchase.
 
 * Customer Engagement Rate: Level of interactions with marketing contents(clicks,likes,views).
@@ -107,7 +108,8 @@ Shows average customer ratings over time, with breakdowns by product category.
 
 >**Marketing Analytics Project for Customer Behavior Insights and Strategic Decision-Making**
 
-📊 Project Overview
+## 📊 Project Overview
+
 The Marketing Analysis project leverages SQL Server for data processing and Power BI for building an interactive dashboard to provide actionable insights into customer engagement, conversion rates, and feedback performance.
 
 ## 🛠️ Tools & Technologies
@@ -128,7 +130,7 @@ The Marketing Analysis project leverages SQL Server for data processing and Powe
 
 - **Connection Method**: Power BI connected to SQL Server via native SQL connector (Import Mode)
 
-- **Data Preparation**: Performed in SSMS using T-SQL queries
+- **Data Preparation**: Performed in SSMS using SQL queries
 
 - **Tables Used**:
 -  🗃️ Data Model – SQL Tables
@@ -148,6 +150,36 @@ The Marketing Analysis project leverages SQL Server for data processing and Powe
   - fact_engagement_data.sql
 
   - fact_customer_journey.sql
+
+
+
+
+## 🧾Business Problems
+
+
+The dashboard was developed to meet the following needs:
+- 🔻  Reduced Customer Engagement
+
+
+- 📉 Decreased Conversion rate
+
+- 💬 Need for customer feedback analysis
+
+
+
+
+ 
+##  🛠️ Data Preparation with SQL
+
+Raw data was cleaned and transformed in SQL Server with the following steps:
+
+- 📅 Standardized date formats
+
+- 🔗 Joined multiple tables for a consolidated data model
+
+
+
+
   
 
 
