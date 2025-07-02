@@ -1,4 +1,4 @@
-# Marketing-Analysis--SQL-POWER-BI
+ # 🚀Marketing-Analysis--SQL-POWER-BI
 Project Overview:
 
 This repository contains the code and documentation for a Marketing analysis project. 
@@ -90,12 +90,66 @@ Shows average customer ratings over time, with breakdowns by product category.
 
 
 
- ![Power BI Graph](assets/graph likes.PNG)
-git add README.md
-git commit -m "Add image to README"
-git push
+ !
 
 
 
  Key Insights:
+
+
+
+
+# 🚀 Marketing Analysis – SQL & Power BI
+
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow?logo=powerbi)
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)
+
+
+>**Marketing Analytics Project for Customer Behavior Insights and Strategic Decision-Making**
+
+📊 Project Overview
+The Marketing Analysis project leverages SQL Server for data processing and Power BI for building an interactive dashboard to provide actionable insights into customer engagement, conversion rates, and feedback performance.
+
+## 🛠️ Tools & Technologies
+
+- 🛢️ SQL Server – Data querying, transformation, and cleaning
+
+- 📊 Power BI – Dashboard creation and data storytelling
+
+- 📄 Excel/CSV – Raw marketing data source
+
+- 🧬 GitHub – Version control and project portfolio
+
+
+## 🗂️ Source Data
+- **Data Source**: Marketing-Analysis--SQL-POWER-BI (SQL Server Database)
+  
+- **Access Tool**: SQL Server Management Studio (SSMS)
+
+- **Connection Method**: Power BI connected to SQL Server via native SQL connector (Import Mode)
+
+- **Data Preparation**: Performed in SSMS using T-SQL queries
+
+- **Tables Used**:
+-  🗃️ Data Model – SQL Tables
+  
+- 📁 Dimension Tables:
+  
+  
+  - dim_customers.sql
+
+  - dim_products.sql
+
+- 📁 Fact Tables:   
+  
+    
+  -  fact_customer_reviews.sql
+
+  - fact_engagement_data.sql
+
+  - fact_customer_journey.sql
+  
+
+
+
 
