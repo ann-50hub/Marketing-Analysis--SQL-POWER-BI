@@ -189,7 +189,7 @@ Raw data was cleaned and transformed in SQL Server with the following steps:
 
 | KPI                                  | Description                                   |
 |------------------|-----------------------------------------------|
-| 🔁 Conversion Rat    | % of website visitors who completed a purchase|
+| 🔁 Conversion Rate    | % of website visitors who completed a purchase|
 | 🎯  Engagement Rate  | Frequency of clicks, likes, views across marketing channels                             |
 | 🌟 Customer Feedback Score | Average rating from customer reviews              |
 
