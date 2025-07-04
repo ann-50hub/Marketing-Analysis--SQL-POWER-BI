@@ -116,37 +116,48 @@ Shows average customer ratings over time, with breakdowns by product category.
 ---
 ## 🛠️ Tools & Technologies
 
-- 🛢️ SQL Server – Data querying, transformation, and cleaning
+- 🛢️ SQL Server – Data querying, transformation, and cleaning.
 
-- 📊 Power BI – Dashboard creation and data storytelling
+- 📊 Power BI – Dashboard creation and data storytelling.
 
-- 📄 Excel/CSV – Raw marketing data source
+- 📄 Excel/CSV – Raw marketing data source.
 
-- 🧬 GitHub – Version control and project portfolio
+- 🧬 GitHub – Version control and project portfolio.
 
 ---
 ## 🗂️ Source Data
-- **Data Source**: Marketing-Analysis--SQL-POWER-BI (SQL Server Database)
+- **Data Source**: PortfolioProject_MarketingAnalytics (SQL Server Database).
   
-- **Access Tool**: SQL Server Management Studio (SSMS)
+- **Access Tool**: SQL Server Management Studio (SSMS).
 
-- **Connection Method**: Power BI connected to SQL Server via native SQL connector (Import Mode)
+- **Connection Method**: Power BI connected to SQL Server via native SQL connector (Import Mode).
 
-- **Data Preparation**: Performed in SSMS using SQL queries
+- **Data Preparation**: Performed in SSMS using SQL queries.
 
 - **Tables Used**:
+
+  -  Customer Journey Table: Track customer movements through the website to analyse the conversion funnel.
+
+ -  Engagement Data Table: Measure Engagement with different types of contents.
+
+ -  Customer Review Table: Analyse customer feedback to identify common themes.
+
+ -  Customer Table: Provide additional information about the customers.
+
+ -  Geographic Table: Provide additional geographic information about the customers.
+
+ -  Product Table: Provide additional information about the products.
+  
 -  🗃️ Data Model – SQL Tables
   
 - 📁 Dimension Tables:
-  
   
   - dim_customers.sql
 
   - dim_products.sql
 
 - 📁 Fact Tables:   
-  
-    
+   
   -  fact_customer_reviews.sql
 
   - fact_engagement_data.sql
