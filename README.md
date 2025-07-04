@@ -150,6 +150,20 @@ Shows the average customer ratings over time, with detailed breakdowns by produc
 
 
 
+## 📌 Business Insights
+- 🔁 Customer Behavior & Conversion Insights
+Fluctuating Conversion Rate: From 2023 to 2025, there is a noticeable decline in conversion rate. Increased rate in Q4 2023 and Q3 2024 suggest that seasonal campaigns or promotions were more effective.
+
+Drop in Purchases: While total customers remained relatively stable, the number of purchasing customers has gradually decreased—indicating possible friction in the buying process.
+
+
+🎯 Customer Engagement Insights
+Sharp Decline in Engagement: Across all metrics—views, likes, and clicks—there’s a significant drop in customer interaction after 2023.
+
+Top-Performing Content: In 2023, blogs and social media outperformed other content types in driving engagement. These formats could be prioritized for future campaigns.
+
+Shift in Preferences: By 2025, engagement with all content types is minimal. This suggests the need for content strategy refresh to realign marketing efforts.
+
 
 
 
