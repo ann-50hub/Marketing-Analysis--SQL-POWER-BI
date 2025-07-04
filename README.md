@@ -138,15 +138,15 @@ Shows average customer ratings over time, with breakdowns by product category.
 
   -  Customer Journey Table: Track customer movements through the website to analyse the conversion funnel.
 
- -  Engagement Data Table: Measure Engagement with different types of contents.
+  -  Engagement Data Table: Measure Engagement with different types of contents.
 
- -  Customer Review Table: Analyse customer feedback to identify common themes.
+  -  Customer Review Table: Analyse customer feedback to identify common themes.
 
- -  Customer Table: Provide additional information about the customers.
+  -  Customer Table: Provide additional information about the customers.
 
- -  Geographic Table: Provide additional geographic information about the customers.
+  -  Geographic Table: Provide additional geographic information about the customers.
 
- -  Product Table: Provide additional information about the products.
+  -  Product Table: Provide additional information about the products.
   
 -  🗃️ Data Model – SQL Tables
   
