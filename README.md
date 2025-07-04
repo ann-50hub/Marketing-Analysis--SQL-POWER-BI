@@ -140,7 +140,7 @@ Raw data was cleaned and transformed in SQL Server with the following steps:
 Visualizes the percentage of website visitors who made a purchase, with dynamic filters by device type.
 
 
-![](https://github.com/ann-50hub/Marketing-Analysis--SQL-POWER-BI/blob/main/Conversion%20Rate.png?raw=true)
+![Conversion Rate](https://github.com/ann-50hub/Marketing-Analysis--SQL-POWER-BI/blob/main/Conversion%20Rate.png?raw=true)
 
 - 📈 Customer Engagement Tracking
 
