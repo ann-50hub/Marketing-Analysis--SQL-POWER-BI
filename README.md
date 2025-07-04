@@ -151,7 +151,8 @@ Shows the average customer ratings over time, with detailed breakdowns by produc
 
 
 ## 📌 Business Insights
-- 🔁 Customer Behavior & Conversion Insights
+ 🔁 Customer Behavior & Conversion Insights
+  
 Fluctuating Conversion Rate: From 2023 to 2025, there is a noticeable decline in conversion rate. Increased rate in Q4 2023 and Q3 2024 suggest that seasonal campaigns or promotions were more effective.
 
 Drop in Purchases: While total customers remained relatively stable, the number of purchasing customers has gradually decreased—indicating possible friction in the buying process.
